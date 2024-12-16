@@ -1,0 +1,56 @@
+nav{
+background-color:white;
+box-shadow: 0px 0px 14px grey;
+height: 13vh;
+width: 100%;
+display: flex;
+
+justify-content: space-between;
+}
+nav img{
+    height: 15vh;
+ margin-top: -0.5em;
+   align-items: start;
+   width: 20vw;
+}
+.btns{
+   margin-right: 6em;
+   margin-top: 1em;
+}
+.btns button{
+   height: 7vh;
+   width: 9vw;
+   background-color: black;
+   color: white;
+   border-radius: 18px;
+   font-family: sans-serif;
+box-shadow: grey;
+justify-content:end;
+border: none;
+
+}
+button:hover{
+   background-color:grey;
+
+}
+.intro{
+   display: flex;
+   
+}.dis button{
+   height: 7vh;
+   width: 12vw;
+   background-color: black;
+   color: white;
+   border-radius: 23px;
+   font-family: sans-serif;
+box-shadow: grey;
+
+border: none;
+margin-left:20em;
+
+}
+
+.dis button:hover{
+   background-color: grey;
+}
+

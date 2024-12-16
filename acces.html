@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <link rel="shortcut icon" href="imgs/images.png">
+   <title>Fatima's caculator</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <nav>
+      <h2 style="font-family: 'Times New Roman', Times, serif; font-style: oblique; padding-top: 1em;" >Elevate Your Calculations with Fatima's calculator</h2>
+   </nav>
+   <div class="calculator">
+      <div class="input">
+         <input type="text" placeholder="0">
+      </div>
+      <div class="btn">
+         <div > 
+<button onclick="clearDisplay()"  style="background-color: rgb(62, 62, 62); color: white;">AC</button>
+<button onclick="deleteLast()" style="background-color:rgb(119, 119, 119);">⌫</button>
+<button onclick="appendOperator('%')"  style="background-color:rgb(119, 119, 119);">%</button>
+<button onclick="appendOperator('/')"  style="background-color:rgb(119, 119, 119);">÷</button>
+</div>
+<div>
+<button onclick="appendNumber('7')">7</button>
+<button onclick="appendNumber('8')">8</button>
+<button onclick="appendNumber('9')">9</button>
+<button onclick="appendOperator('*')" style="background-color:rgb(119, 119, 119);">×</button>
+</div>
+<div>
+<button onclick="appendNumber('4')" >4</button>
+<button onclick="appendNumber('5')">5</button>
+<button onclick="appendNumber('6')">6</button>
+<button onclick="appendOperator('-')"  style="background-color:rgb(119, 119, 119);">-</button>
+</div>
+<div>
+<button onclick="appendNumber('1')">1</button>
+<button onclick="appendNumber('2')">2</button>
+<button onclick="appendNumber('3')">3</button>
+<button onclick="appendOperator('+')"  style="background-color:rgb(119, 119, 119);">+</button>
+</div>
+<div>
+  
+      <button onclick="appendNumber('00')">00</button>
+      <button onclick="appendNumber('0')">0</button>
+      <button onclick="appendNumber('.')">.</button>
+      <button onclick="calculate()"  style="background-color:rgb(62, 62, 62); color: white;">=</button>
+     
+
+     
+   </div>
+
+      </div>
+   </div>
+   <script src="script.js"></script>
+</body>
+</html>
